@@ -26,9 +26,9 @@ public class Circulo {
         miCir.CalcularArea();
         miCir.CalcularPerimetro();
 
-        miCir.CambiarRadio(5.0); // Cambia el radio a 5.0
+        miCir.CambiarRadio(5.0); 
 
-        // Vuelve a calcular el área y el perímetro con el nuevo radio
+        
         miCir.CalcularArea();
         miCir.CalcularPerimetro();
     }
