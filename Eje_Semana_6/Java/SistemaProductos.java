@@ -26,7 +26,6 @@ public class SistemaProductos {
             this.modelo = modelo;
         }
 
-        @Override
         public String mostrarDetalle() {
             String padre = super.mostrarDetalle();
             return padre + "\nMarca: " + marca + "\nModelo: " + modelo;
@@ -41,7 +40,7 @@ public class SistemaProductos {
             this.fechaVencimiento = fechaVencimiento;
         }
 
-        @Override
+
         public String mostrarDetalle() {
             String padre = super.mostrarDetalle();
             return padre + "\nFecha de Vencimiento: " + fechaVencimiento;
@@ -58,7 +57,7 @@ public class SistemaProductos {
             this.color = color;
         }
 
-        @Override
+
         public String mostrarDetalle() {
             String padre = super.mostrarDetalle();
             return padre + "\nTalla: " + talla + "\nColor: " + color;
