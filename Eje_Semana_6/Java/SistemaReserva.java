@@ -62,7 +62,7 @@ public class SistemaReserva {
             this.servicioChampagne = servicioChampagne;
         }
 
-        @Override
+
         public String mostrarDetalle() {
             String padre = super.mostrarDetalle();
             return padre + "\nClase: Primera Clase\nAsiento: " + asiento + "\nServicio de Champagne: " + servicioChampagne;
